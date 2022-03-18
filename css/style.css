@@ -3,6 +3,8 @@
     --color2: #777;
     --color3: #fcac45;
     --color4: #ed1c24;
+    --color5: #66c530;
+    --color6: #04a1e6;
 }
 
 
@@ -33,12 +35,22 @@ html {
     color: var(--color4);
 }
 
+.color5 {
+    color: var(--color5);
+}
+
+.color6 {
+    color: var(--color6);
+}
+
 body {
     font-size: 20px;
 }
 
 header {
     background: url(../img/01.jpg);
+    height: auto;
+    background-attachment: fixed;
 }
 
 li {
