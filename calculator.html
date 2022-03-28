@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section class="calc">
+        <div class="container">
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6">
+                    <div class="calc_body">
+                        <div class="row">
+                            <div class="col d-flex justify-content-between">
+                                <label for="customRange3" class="form-label" style="font-size: 18px;">Выберите сумму:</label>
+                                <div class="d-flex text-end align-items-center">
+                                    <span style="font-size: 24px;">000</span>
+                                    <span>лей</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="range" class="form-range" min="1000" max="60000" step="100" id="customRange3">
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex justify-content-between" style="font-size: 12px;">
+                                <div>1000</div>
+                                <div>60000</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="customRange3" class="form-label" style="font-size: 18px;">Выберите термин:</label>
+                            </div>
+                        </div>
+                        <div class="row but">
+                            <div class="col-9 d-flex align-items-center ">
+                                <button type="button" class="btn color10 btn-lg m-2" style="font-size: 30px;">2</button>
+                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 30px;">3</button>
+                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 30px;">6</button>
+                                <button type="button" class="btn color10 btn-lg  m-2" style="font-size: 30px;">9</button>
+                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 30px;">12</button>
+                            </div>
+                            <div class="col-3 d-flex flex-wrap justify-content-end">
+                                <span style="font-size: 24px;">36700</span>
+                                <span class="lei">лей</span>
+                                <span class="text-end">Ежемесячная ставка</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col  d-flex">
+                                <div>
+                                    <label class=" perekluchatel ">
+                                    <input type ="checkbox ">
+                                    <div class ="sumblavam alemen ">
+
+                                    </div>
+                                </div>
+                                <div >
+                                <p style="margin-left: 10px;">Отсрочка платежа на 1 месяц</p>
+                            </div>
+                            </div>
+                           
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex justify-content-center">
+                                <button type="button" class="btn color11 but_cred">Подать заявку на кредит</button>
+                            </div>
+                        </div>
+                        <div class="row srok">
+                            <div class="col d-flex justify-content-between pt-2">
+                                <div>
+                                    <p>Срок кредита (понедельник)</p>
+                                </div>
+                                <div>
+                                    <p>2 + 1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row srok_bottom">
+                            <div class="col d-flex justify-content-between">
+                                <div>
+                                    <p>Дата первого погашения
+                                </p>
+                            </div>
+                                <div>
+                                    <p>28.05.2022</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row green">
+                            <div class="col d-flex justify-content-between">
+                                <div>
+                                   <a href="#">См. таблицу возврата</a> 
+                                </div>
+                                <div>
+                                    <a href="#">Преддоговорная информация</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>

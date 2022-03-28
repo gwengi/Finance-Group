@@ -1,0 +1,149 @@
+:root {
+    --color10: #e0dfdd;
+    --color11: #32c8a0;
+}
+
+.color10 {
+    background-color: var(--color10);
+}
+
+.color11 {
+    background-color: var(--color11);
+}
+
+.calc {
+    background-color: var(--color10);
+    font-size: 14px;
+}
+
+.calc_body {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Rubik', Sans-Serif;
+    line-height: 1.5;
+}
+
+.form-range {
+    background: var(--brand-green);
+    border-radius: 0px;
+    height: 5px;
+}
+
+#item {
+    width: 10px;
+    height: 30px;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    background: yellow;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#result {
+    margin: 20px;
+}
+
+.row {
+    margin: 15px 0;
+}
+
+.btn:hover {
+    background-color: var(--color11);
+}
+
+.perekluchatel {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+}
+
+.perekluchatel input {
+    display: none;
+}
+
+.sumblavam {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color10);
+    transition: .4s;
+}
+
+.sumblavam:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3.8px;
+    background-color: #AAAAAA;
+    transition: .4s;
+}
+
+input:checked+.sumblavam {
+    background-color: var(--color10);
+}
+
+input:focus+.sumblavam {
+    box-shadow: 0 0 1px var(--color10);
+}
+
+input:checked+.sumblavam:before {
+    transform: translateX(16px);
+}
+
+.sumblavam.alemen {
+    border-radius: 34px;
+}
+
+.sumblavam.alemen:before {
+    border-radius: 50%;
+    background-color: var(--color11);
+}
+
+.but_cred {
+    width: 320px;
+    height: 43px;
+    color: white;
+}
+
+.srok {
+    border-top: 1px solid var(--color10);
+}
+
+.srok_bottom {
+    border-bottom: 1px solid var(--color10);
+}
+
+.green {
+    font-size: 12px;
+}
+
+.green a {
+    color: var(--color11);
+    text-decoration: none;
+}
+
+.green a:hover {
+    text-decoration: underline;
+}
+
+.lei {
+    display: flex;
+    align-self: center;
+}
+
+.but button {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
