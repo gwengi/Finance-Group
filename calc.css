@@ -3,6 +3,18 @@
     --color11: #32c8a0;
 }
 
+body {
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Rubik', Sans-Serif;
+    font-size: 1.2vw;
+}
+
+.col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .color10 {
     background-color: var(--color10);
 }
@@ -13,7 +25,6 @@
 
 .calc {
     background-color: var(--color10);
-    font-size: 14px;
 }
 
 .calc_body {
@@ -79,8 +90,8 @@
 .sumblavam:before {
     position: absolute;
     content: "";
-    height: 18px;
-    width: 18px;
+    height: 1.2vw;
+    width: 1.2vw;
     left: 3px;
     bottom: 3.8px;
     background-color: #AAAAAA;
@@ -109,21 +120,24 @@ input:checked+.sumblavam:before {
 }
 
 .but_cred {
-    width: 320px;
-    height: 43px;
+    width: 21vw;
+    height: 2.8vw;
     color: white;
+    font-size: 1vw;
 }
 
 .srok {
     border-top: 1px solid var(--color10);
+    font-size: 1vw;
 }
 
 .srok_bottom {
     border-bottom: 1px solid var(--color10);
+    font-size: 1vw;
 }
 
 .green {
-    font-size: 12px;
+    font-size: 0.8vw;
 }
 
 .green a {
@@ -141,9 +155,14 @@ input:checked+.sumblavam:before {
 }
 
 .but button {
-    width: 55px;
-    height: 55px;
+    width: 4vw;
+    height: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.but,
+.zaiavka {
+    font-size: 1vw;
 }

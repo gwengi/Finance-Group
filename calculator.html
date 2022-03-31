@@ -14,48 +14,60 @@
     <section class="calc">
         <div class="container">
             <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6">
+                <div class="col-6-none col-lg-6 "></div>
+                <div class="col-12 col-lg-6">
                     <div class="calc_body">
                         <div class="row">
                             <div class="col d-flex justify-content-between">
-                                <label for="customRange3" class="form-label" style="font-size: 18px;">Выберите сумму:</label>
+                                <label for="customRange3" class="form-label mb-0 align-self-center">Выберите сумму:</label>
                                 <div class="d-flex text-end align-items-center">
-                                    <span style="font-size: 24px;">000</span>
+                                    <span style="font-size: 1.6vw;" class="m-1">000</span>
                                     <span>лей</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row ml-1 mr-1">
                             <input type="range" class="form-range" min="1000" max="60000" step="100" id="customRange3">
                         </div>
                         <div class="row">
-                            <div class="col d-flex justify-content-between" style="font-size: 12px;">
+                            <div class="col d-flex justify-content-between" style="font-size: 0.8vw;">
                                 <div>1000</div>
                                 <div>60000</div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <label for="customRange3" class="form-label" style="font-size: 18px;">Выберите термин:</label>
+                                <label for="customRange3" class="form-label">Выберите термин:</label>
                             </div>
                         </div>
                         <div class="row but">
-                            <div class="col-9 d-flex align-items-center ">
-                                <button type="button" class="btn color10 btn-lg m-2" style="font-size: 30px;">2</button>
-                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 30px;">3</button>
-                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 30px;">6</button>
-                                <button type="button" class="btn color10 btn-lg  m-2" style="font-size: 30px;">9</button>
-                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 30px;">12</button>
+                            <div class="col-9 d-flex align-items-center p-0 flex-wrap">
+                                <button type="button" class="btn color10 btn-lg m-2" style="font-size: 2vw;">2</button>
+                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 2vw;">3</button>
+                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 2vw;">6</button>
+                                <button type="button" class="btn color10 btn-lg  m-2" style="font-size: 2vw;">9</button>
+                                <button type="button" class="btn  color10 btn-lg  m-2" style="font-size: 2vw;">12</button>
                             </div>
-                            <div class="col-3 d-flex flex-wrap justify-content-end">
-                                <span style="font-size: 24px;">36700</span>
+                            <div class="col-3 d-none d-md-block d-flex flex-wrap justify-content-end p-0">
+                                <span style="font-size: 1.5vw;" class="m-1">36700</span>
                                 <span class="lei">лей</span>
                                 <span class="text-end">Ежемесячная ставка</span>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col  d-flex">
+                            <div class="col-12 d-block d-md-none d-flex flex-wrap justify-content-center p-0">
+                                <span style="font-size: 1.6vw;" class="m-1">36700</span>
+                                <span class="lei">лей</span>
+                                <!-- <span class="text-end">Ежемесячная ставка</span> -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" col-12 d-block d-md-none d-flex flex-wrap justify-content-center p-0 ">
+                                <span class="text-end ">Ежемесячная ставка</span>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col d-flex ">
                                 <div>
                                     <label class=" perekluchatel ">
                                     <input type ="checkbox ">
@@ -64,18 +76,18 @@
                                     </div>
                                 </div>
                                 <div >
-                                <p style="margin-left: 10px;">Отсрочка платежа на 1 месяц</p>
+                                <p style="margin-left: 10px; font-size: 1vw; ">Отсрочка платежа на 1 месяц</p>
                             </div>
                             </div>
                            
                         </div>
-                        <div class="row">
-                            <div class="col d-flex justify-content-center">
-                                <button type="button" class="btn color11 but_cred">Подать заявку на кредит</button>
+                        <div class="row zaiavka ">
+                            <div class="col d-flex justify-content-center ">
+                                <button type="button " class="btn color11 but_cred ">Подать заявку на кредит</button>
                             </div>
                         </div>
-                        <div class="row srok">
-                            <div class="col d-flex justify-content-between pt-2">
+                        <div class="row srok ">
+                            <div class="col d-flex justify-content-between pt-2 ">
                                 <div>
                                     <p>Срок кредита (понедельник)</p>
                                 </div>
@@ -84,8 +96,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row srok_bottom">
-                            <div class="col d-flex justify-content-between">
+                        <div class="row srok_bottom ">
+                            <div class="col d-flex justify-content-between ">
                                 <div>
                                     <p>Дата первого погашения
                                 </p>
@@ -96,13 +108,13 @@
                             </div>
 
                         </div>
-                        <div class="row green">
-                            <div class="col d-flex justify-content-between">
+                        <div class="row green ">
+                            <div class="col d-flex justify-content-between ">
                                 <div>
-                                   <a href="#">См. таблицу возврата</a> 
+                                   <a href="# ">См. таблицу возврата</a> 
                                 </div>
                                 <div>
-                                    <a href="#">Преддоговорная информация</a>
+                                    <a href="# ">Преддоговорная информация</a>
                                 </div>
                             </div>
                         </div>
