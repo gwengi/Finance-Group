@@ -1,0 +1,284 @@
+/* Colors */
+
+ :root {
+    --color1: #5b5b5a;
+    --color2: #777;
+    --color3: #fcac45;
+    --color4: #ed1c24;
+    --color5: #66c530;
+    --color6: #04a1e6;
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.color3 {
+    color: var(--color3);
+}
+
+.color4 {
+    color: var(--color4);
+}
+
+.color5 {
+    color: var(--color5);
+}
+
+.color6 {
+    color: var(--color6);
+}
+
+
+/*@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+body,
+html {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: var(--color1);
+    font-size: 1.3vw;
+}
+
+@media screen and (max-width: 992px) {
+    body,
+    strong,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .form-control {
+        font-size: 14px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--color2)
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: var(--color3);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header Start */
+
+header {
+    background: url(../img/01.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Header End */
+
+
+/* About Start */
+
+.line {
+    border-top: 0.3vw solid var(--color3);
+    height: 0.7vw;
+    width: 4vw;
+    text-align: center;
+}
+
+
+/* About End */
+
+
+/* Actions Start */
+
+.actions {
+    background: url(../img/action.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 10px;
+}
+
+.line_opasity {
+    border-top: 0.3vw solid var(--color3);
+    height: 0.7vw;
+    width: 2.7vw;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 13vw;
+    height: 13vw;
+}
+
+.border_img img:hover {
+    border: 0.3vw solid var(--color3);
+    /* Параметры рамки */
+    border-radius: 50%;
+    /* Радиус скругления */
+}
+
+.march {
+    font-weight: 900;
+}
+
+.caption {
+    margin-top: 0.7vw;
+    padding: 0.6vw;
+    color: #5b5b5a;
+    border-top: 0.3vw solid #fcac45;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.3vw;
+}
+
+
+/* Actions End */
+
+
+/* Press Start */
+
+.round_gadjets {
+    font-size: 2vw;
+    border: 0.3vw solid #FCAC45;
+    width: 6.5vw;
+    height: 6.5vw;
+    padding: 2vw;
+    margin-bottom: 0.7vw;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+
+/* Press End */
+
+
+/* Clients Start */
+
+.clients {
+    background: url(../img/04.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.adidas {
+    height: 34vw;
+    margin: 2vw;
+}
+
+
+/* Clients End */
+
+
+/* Services Start */
+
+.portfolio img {
+    width: 16vw;
+    height: 16vw;
+    margin: 0.7vw;
+}
+
+
+/* Services End */
+
+
+/* Contacts Start */
+
+.contacts {
+    background: url(../img/05.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* Contacts End */
+
+
+/* FG-onlain Start */
+
+.width {
+    width: 51vw;
+}
+
+.bg_btn {
+    background-color: var(--color3);
+    border-radius: 0;
+    font-size: 0.9vw;
+    width: 8vw;
+    height: 2.6vw;
+}
+
+@media screen and (max-width: 768px) {
+    .bg_btn {
+        font-size: 10px;
+        width: 60px;
+        height: 20px;
+    }
+}
+
+.form_size {
+    font-size: 0.9vw;
+    width: 25vw;
+    color: var(--color2);
+}
+
+.form_size_md {
+    display: block;
+    width: 100%;
+}
+
+
+/* Fg-onlain End */
+
+
+/* Footer Start */
+
+.footer {
+    background-color: black;
+    font-size: 10px;
+    padding: 1.4vw 0 0 0;
+}
+
+footer a {
+    color: var(--color2);
+}
+
+footer a:hover {
+    color: var(--color3);
+}
+
+.socials li {
+    margin-left: 0.7vw;
+}
+
+footer i {
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 768px) {
+    footer i {
+        font-size: 14px;
+    }
+}
+
+
+/* Footer End */

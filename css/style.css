@@ -49,12 +49,13 @@
     
     @media screen and (max-width: 992px) {
         body {
-            font-size: 8px;
+            font-size: 10px;
         }
     }
     
     a {
         text-decoration: none;
+        color: var(--color1);
     }
     
     .bi {
